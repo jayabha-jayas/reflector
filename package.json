@@ -1,0 +1,41 @@
+{
+  "name": "reflector-with-postprocessing",
+  "version": "1.0.0",
+  "dependencies": {
+    "@react-three/drei": "2.2.10",
+    "postprocessing": "^6.18.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-scripts": "4.0.1",
+    "react-three-fiber": "5.3.10",
+    "three": "0.124.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "prettier": {
+    "tabWidth": 2
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged --pattern \"**/*.*(js)\""
+    }
+  },
+  "keywords": [],
+  "description": ""
+}
